@@ -1,0 +1,111 @@
+<view class="big">
+  <view class="like">猜你喜欢</view>
+  <!-- 第一部分 -->
+  <view class="box">
+    <image src="/pages/images/find/top1.png"></image>
+    <view class="list">
+      <view class="list-item">
+        <image src="/pages/images/find/bottom1.png"></image>
+        <text class="title">神探夏洛克</text>
+        <text class="desc">福尔摩斯都市历险</text>
+      </view>
+      <view class="list-item">
+        <image src="/pages/images/find/bottom2.png"></image>
+        <text class="title">左眼诡事</text>
+        <text class="desc">叶祖新上演民国</text>
+      </view>
+      <view class="list-item">
+        <image src="/pages/images/find/bottom3.png"></image>
+        <text class="title">月亮宝石</text>
+        <text class="desc">美丽宝石引起的</text>
+      </view>
+      <view class="list-item">
+        <image src="/pages/images/find/bottom4.png"></image>
+        <text class="title">S.C.I谜案集</text>
+        <text class="desc">作家耳雅悬疑</text>
+      </view>                  
+    </view>
+    
+  </view>
+  <!-- 第二部分 -->
+  <view class="box">
+    <image src="/pages/images/find/top2.png"></image>
+    <view class="list">
+      <view class="list-item">
+        <image src="/pages/images/find/bottom5.png"></image>
+        <text class="title">极限挑战</text>
+        <text class="desc">传递正能量</text>
+      </view>
+      <view class="list-item">
+        <image src="/pages/images/find/bottom6.png"></image>
+        <text class="title">爸爸去哪儿</text>
+        <text class="desc">星爸萌娃暖心</text>
+      </view>
+      <view class="list-item">
+        <image src="/pages/images/find/bottom7.png"></image>
+        <text class="title">火星情报局</text>
+        <text class="desc">火星特工奇葩提问</text>
+      </view>
+      <view class="list-item">
+        <image src="/pages/images/find/bottom8.png"></image>
+        <text class="title">蒙面唱将</text>
+        <text class="desc">乐坛实例唱将</text>
+      </view>                  
+    </view>
+    
+  </view>
+  <!-- 第三部分 -->
+  <view class="box">
+    <image src="/pages/images/find/top1.png"></image>
+    <view class="list">
+      <view class="list-item">
+        <image src="/pages/images/find/bottom1.png"></image>
+        <text class="title">神探夏洛克</text>
+        <text class="desc">福尔摩斯都市历险</text>
+      </view>
+      <view class="list-item">
+        <image src="/pages/images/find/bottom2.png"></image>
+        <text class="title">左眼诡事</text>
+        <text class="desc">叶祖新上演民国</text>
+      </view>
+      <view class="list-item">
+        <image src="/pages/images/find/bottom3.png"></image>
+        <text class="title">月亮宝石</text>
+        <text class="desc">美丽宝石引起的</text>
+      </view>
+      <view class="list-item">
+        <image src="/pages/images/find/bottom4.png"></image>
+        <text class="title">S.C.I谜案集</text>
+        <text class="desc">作家耳雅悬疑</text>
+      </view>                  
+    </view>
+    
+  </view>
+<!-- 第四部分 -->
+  <view class="box">
+    <image src="/pages/images/find/top2.png"></image>
+    <view class="list">
+      <view class="list-item">
+        <image src="/pages/images/find/bottom5.png"></image>
+        <text class="title">极限挑战</text>
+        <text class="desc">传递正能量</text>
+      </view>
+      <view class="list-item">
+        <image src="/pages/images/find/bottom6.png"></image>
+        <text class="title">爸爸去哪儿</text>
+        <text class="desc">星爸萌娃暖心</text>
+      </view>
+      <view class="list-item">
+        <image src="/pages/images/find/bottom7.png"></image>
+        <text class="title">火星情报局</text>
+        <text class="desc">火星特工奇葩提问</text>
+      </view>
+      <view class="list-item">
+        <image src="/pages/images/find/bottom8.png"></image>
+        <text class="title">蒙面唱将</text>
+        <text class="desc">乐坛实例唱将</text>
+      </view>                  
+    </view>
+    
+  </view>
+</view>

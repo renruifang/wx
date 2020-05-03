@@ -1,0 +1,70 @@
+<!-- 轮播图 -->
+<swiper indicator-dots indicator-color="rgba(255,255,255,0.5)" indicator-active-color="#fff" autoplay interval="2000" circular>
+  <block wx:for="{{focus}}" wx:key="key">
+    <swiper-item>
+      <image src="{{item.pic}}"></image>
+    </swiper-item>
+  </block>
+</swiper>
+
+
+<!-- 快捷菜单 -->
+<view class="list">
+  <view class="list-item">
+    <image src="/pages/images/jvji/list1.png"></image>
+    <text>全部剧集</text>
+  </view>
+  <view class="list-item">
+    <image src="/pages/images/jvji/list2.png"></image>
+    <text>大陆剧场</text>
+  </view>
+  <view class="list-item">
+    <image src="/pages/images/jvji/list3.png"></image>
+    <text>燃剧场</text>
+  </view>
+  <view class="list-item">
+    <image src="/pages/images/jvji/list4.png"></image>
+    <text>港剧场</text>
+  </view>
+  <view class="list-item">
+    <image src="/pages/images/jvji/list5.png"></image>
+    <text>亚太剧场</text>
+  </view>        
+</view>
+
+<!-- 热播好剧 -->
+<view class="big">
+  <view class="rb">热播好剧</view>
+  <view class="box">
+    <view class="box-item">
+      <image src="/pages/images/jvji/jvji1.png"></image>
+      <text class="title">我们都要好好的</text>
+      <text class="desc">刘涛重返职场</text>
+    </view>
+    <view class="box-item">
+      <image src="/pages/images/jvji/jvji2.png"></image>
+      <text class="title">热血同行</text>
+      <text class="desc">黄子韬易烊千玺并肩作战</text>
+    </view>
+    <view class="box-item">
+      <image src="/pages/images/jvji/jvji3.png"></image>
+      <text class="title">冰糖炖雪梨</text>
+      <text class="desc">黎语冰举报边澄</text>
+    </view>
+    <view class="box-item">
+      <image src="/pages/images/jvji/jvji4.png"></image>
+      <text class="title">三千鸦杀</text>
+      <text class="desc">神仙下凡</text>
+    </view>    
+    <view class="box-item">
+      <image src="/pages/images/jvji/jvji5.png"></image>
+      <text class="title">重生</text>
+      <text class="desc">张译陷入危险</text>
+    </view>
+    <view class="box-item">
+      <image src="/pages/images/jvji/jvji6.png"></image>
+      <text class="title">寻秦记</text>
+      <text class="desc">全新项少龙燃血再现</text>
+    </view>            
+  </view>
+</view>

@@ -1,0 +1,70 @@
+.image_header{
+  width:100%;
+  border-radius:20rpx;
+}
+.head_image{
+  width:130rpx;
+  height:130rpx;
+}
+/* 演员信息 */
+.actor-list{
+  display:flex;
+  width:100%;
+  margin-top:30rpx;
+}
+.actor{
+  width:25%;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  font-size:30rpx;
+}
+/* 评论部分 */
+.comment-list{
+  margin-top:60rpx;
+  margin-left:40rpx;
+}
+.yingping{
+  font-weight:700;
+  text-shadow:5rpx 0rpx 5rpx #333366;
+}
+/* 用户信息及评论 */
+.comment-user{
+  display:flex;
+  margin-top:20rpx;
+}
+.comment-user>image{
+  width:110rpx;
+  height:90rpx;
+  border-radius:50%;
+}
+.user{
+  display:flex;
+  flex-direction:column;
+  font-size:25rpx;
+  margin-left:20rpx;
+  margin-top:20rpx;
+  padding-bottom:30rpx;
+  border-bottom:2rpx solid #eee;
+  width:100%;
+  box-sizing:border-box;
+}
+.content{
+  margin-top:15rpx;
+  font-size:27rpx;
+}
+/* 发送评论 */
+.comment-send{
+  margin-bottom:90rpx;
+}
+.comment-send input{
+  border:2rpx solid #ccc;
+  width:95%;
+  height:60rpx;
+  box-sizing:border-box;
+  border-radius:40rpx;
+  margin:7rpx auto;
+  margin-top:40rpx;
+  font-size:26rpx;
+  text-indent:1em;
+}

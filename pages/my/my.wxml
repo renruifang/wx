@@ -1,0 +1,6 @@
+<view>
+  <image src="{{userInfo.avatarUrl}}"></image>
+  <text>{{userInfo.nickName}}</text>
+</view>
+<button open-type="getUserInfo" bindgetuserinfo="userInfo"  wx:if="{{!userInfo}}">点击登录</button>
+<button bindtap="exit" wx:else>退出登录</button>

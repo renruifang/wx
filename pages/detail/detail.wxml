@@ -1,0 +1,35 @@
+<view>
+  <image src="{{data.image_header}}" class="image_header" bindtap="playMusic"></image>
+  <!-- 演员列表 -->
+  <view class="actor-list">
+    <block wx:for="{{data.actors}}" wx:key="key">
+    <view class="actor">
+      <image src="{{item.head_image}}" class="head_image"></image>
+      <text>{{item.actor}}</text>
+    </view>
+    </block>    
+    
+  </view>
+  <!-- 评论信息 -->
+  <view class="comment-list">
+    <view class="yingping">影评</view>
+    <view class="comment">
+      <!-- 评论用户及评论内容 -->
+      <block wx:for="{{comments}}" wx:key="key">
+      <view class="comment-user">
+        <image src="{{item.user.avatarUrl}}"></image>     <!--用户头像 -->  
+        <view class="user">
+          <text>{{item.user.nickName}}</text>
+          <text>{{item.update_time}}</text>
+          <text class="content">{{item.content}}</text>
+        </view>
+      </view>
+      </block>
+    </view>
+
+  </view>
+  <!-- 发送评论 -->
+  <view class="comment-send">
+    <input type="text" placeholder="快来发表你的想法!" confirm-type="send" bindconfirm="sendComment" data-id="{{data.id}}"></input>
+  </view>
+</view>

@@ -1,0 +1,54 @@
+<!-- 轮播图 -->
+<swiper indicator-dots indicator-color="rgba(255,255,255,0.5)" indicator-active-color="#fff" autoplay interval="2000" circular>
+  <block wx:for="{{focus}}" wx:key="key">
+    <swiper-item>
+      <image src="{{item.pic}}"></image>
+    </swiper-item>
+  </block>
+</swiper>
+
+<!-- 列表部分-->
+<view class="list">
+   <!-- 剧集 -->
+  <view class="list-item">
+    <view class="title">
+      <text class="title-left">剧集</text>
+      <text class="title-right">更多>></text>
+    </view>
+    <view class="header">
+      <image src="/pages/images/jvji-header.png"></image>
+      <text class="header-top">《重生》抢看大结局,惊天反转内鬼是TA</text>
+      <text class="header-bottom">秦池逼问幕后大佬！内鬼早有痕迹你发现了吗？</text>
+    </view>
+    <view class="bottom">
+      <block wx:for="{{tvs}}" wx:key="key">
+      <view class="bottom-item">
+        <image src="{{item.image_main}}" bindtap="show" data-id="{{item.id}}"></image>
+        <text class="bottomItem-top">{{item.title}}</text>
+        <text class="bottomItem-bottom">{{item.desc}}</text>
+      </view>
+      </block>                           
+    </view>
+  </view>
+   <!-- 电影 -->
+  <view class="list-item">
+    <view class="title">
+      <text class="title-left">电影</text>
+      <text class="title-right">更多>></text>
+    </view>
+    <view class="header">
+      <image src="/pages/images/jvji-header.png"></image>
+      <text class="header-top">《重生》抢看大结局,惊天反转内鬼是TA</text>
+      <text class="header-bottom">秦池逼问幕后大佬！内鬼早有痕迹你发现了吗？</text>
+    </view>
+    <view class="bottom">
+      <block wx:for="{{tvs}}" wx:key="key">
+      <view class="bottom-item">
+        <image src="{{item.image_main}}" bindtap="show" data-id="{{item.id}}"></image>
+        <text class="bottomItem-top">{{item.title}}</text>
+        <text class="bottomItem-bottom">{{item.desc}}</text>
+      </view> 
+      </block>                          
+    </view>
+  </view>           
+</view>
